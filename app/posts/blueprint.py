@@ -1,1 +1,6 @@
-# кyсок изолированной информации - blueprint
+# кyсок изолированной информации - blueprintd
+
+
+from flask import Blueprint
+
+posts = Blueprint('posts', __name__, template_folder='templates')
