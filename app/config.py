@@ -1,3 +1,5 @@
 class Configuration(object):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:12345@192.168.0.220/test1'
+    
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_DATABASE_URI = 'mysql+mysqlconnector://root:12345@192.168.1.188/test1'
